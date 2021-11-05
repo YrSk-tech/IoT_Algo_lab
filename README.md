@@ -1,1 +1,2 @@
-# IoT_Algo_lab
+# Binary Search Tree 
+Realisation insert search and delete methods in python  
