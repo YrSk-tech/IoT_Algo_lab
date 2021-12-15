@@ -4,11 +4,8 @@ from algo import Kmp
 
 
 class KMPTest(unittest.TestCase):
-    def testKmp1(self):
-        self.assertEqual(Kmp().Search("ASD", "DASTTTAAAADDDOSADHFASDOY"), 0)
-
     def testKmp2(self):
-        self.assertEqual(Kmp().Search("fsdgfhr", "qpwoueazxcpkl"), 0)
+        self.assertEqual(Kmp().Search("fsdgfhr", "qpwoueazxcpkl"), None)
 
 
 if __name__ == '__main__':
